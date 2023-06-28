@@ -1,43 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ysabeau+Office:wght@300&display=swap');
-*{
-   margin: 0; 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ysabeau+Office:wght@300&display=swap");
+* {
+  margin: 0;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    height: 500px;
+
+.container-of-parts {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
 }
-.graypart{
-    background-color: #262626;
-    width: 50%;
-    color: white;
-    padding-left:15%;
-    padding-top: 2%;
+.container-of-parts .graypart {
+  background-color: #262626;
+  width: 50%;
+  color: white;
+  padding-left: 15%;
+  padding-top: 2%;
 }
-.bluepart{
-    background-color: #bee5f7;
-    width: 50%;
-    padding-right:15% ;
+.container-of-parts .graypart h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  line-height: 70px;
 }
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    line-height: 70px;
+.container-of-parts .graypart p {
+  font-family: "Ysabeau Office", sans-serif;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.9960784314);
+  font-weight: lighter;
 }
-.images{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    bottom: 47%;
-    left: 228px;
-    right: 272px;
+.container-of-parts .bluepart {
+  background-color: #bee5f7;
+  width: 50%;
+  padding-right: 15%;
 }
-img{
-    width: 180px;
+.container-of-parts .bluepart .images {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 47%;
+  left: 228px;
+  right: 272px;
 }
-p{
-    font-family:'Ysabeau Office', sans-serif;
-    font-size: 19px;
-    color: #fffffffe;
-    font-weight: lighter;
-}
+
+img {
+  width: 180px;
+}/*# sourceMappingURL=style2.css.map */
